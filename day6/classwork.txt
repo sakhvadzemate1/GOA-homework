@@ -1,0 +1,4 @@
+implicit-ავტომატური(int,str,float)
+explicit-მექანიკური
+value-მნიშვნელობა
+
