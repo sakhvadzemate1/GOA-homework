@@ -1,0 +1,10 @@
+sting-პრჭყალებს მოქცეული ტექსტი
+qoutation marks-პრჭყალებს ნიშნავს
+integer-მთელი რიცხვი
+float-წილადი რიცხვი
+concatenation-სტრინგის შეერთება
+parenthesis-()ფრჩხილები
+declare-ცვლადის დეკლარირება(შექმნა)
+str-sting
+int-integer
+float-float
