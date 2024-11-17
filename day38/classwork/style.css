@@ -1,0 +1,44 @@
+
+body {
+    background-color: #333333;
+  }
+  
+  h1 {
+    text-decoration: underline;
+    color: #F28D35;
+    font-size: 50px;
+  }
+  
+  h2 {
+    text-decoration: overline;
+    color: #6BBE92;
+    font-size: 50px;
+  }
+  
+  h3 {
+    text-decoration: line-through;
+    color: #D83367;
+    font-size: 55px;
+    
+  }
+  
+  h4 {
+    text-decoration: underline overline;
+    color: #149EF2;
+    font-size: 55px;
+  }
+  h5{
+    text-decoration: underline line-through;
+    font-size: 55px;
+  }
+  h6{
+    text-decoration: overline line-through;
+    color: red;
+    font-size: 50px;
+  }
+  p{
+    text-decoration: underline overline line-through;
+    color:darkcyan;
+    font-size: 50px;
+
+  }

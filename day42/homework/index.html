@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Border Style Experiment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="border-solid">Solid Border</div>
+  <div class="border-dotted">Dotted Border</div>
+  <div class="border-dashed">Dashed Border</div>
+  <div class="border-double">Double Border</div>
+  <div class="border-groove">Groove Border</div>
+  <div class="border-ridge">Ridge Border</div>
+  <div class="border-inset">Inset Border</div>
+  <div class="border-outset">Outset Border</div>
+  <div class="border-none">No Border</div>
+  <div class="border-hidden">Hidden Border</div>
+</body>
+</html>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  div {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+    border-width: 4px;
+    font-size: 14px;
+  }
+  
+
+  .border-solid {
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .border-dotted {
+    border-style: dotted;
+    border-color: blue;
+  }
+  
+  .border-dashed {
+    border-style: dashed;
+    border-color: green;
+  }
+  
+  .border-double {
+    border-style: double;
+    border-color: purple;
+  }
+  
+  .border-groove {
+    border-style: groove;
+    border-color: darkorange;
+  }
+  
+  .border-ridge {
+    border-style: ridge;
+    border-color: maroon;
+  }
+  
+  .border-inset {
+    border-style: inset;
+    border-color: gray;
+  }
+  
+  .border-outset {
+    border-style: outset;
+    border-color: teal;
+  }
+  
+  .border-none {
+    border-style: none;
+    border-color: transparent;
+  }
+  
+  .border-hidden {
+    border-style: hidden;
+    border-color: black; 
+  }
+  
+</style>

@@ -1,0 +1,41 @@
+p{
+
+    color: green;font-size: 50px;text-align: left;
+}
+
+#p{
+
+
+    color: greenyellow;font-size: 50px;text-align:left;
+}
+#p2{
+    color:red;font-size: 50px;text-align: left;
+}
+#p3{
+
+    color: aqua;font-size: 50px;text-align: left;
+}
+#p4{
+
+    color: yellow;font-size: 50px;text-align: left;
+}
+
+.paragraph{
+    color: pink;
+}
+ 
+.big-text b{
+    color:red
+}
+
+.big-text b i{
+    color: greenyellow;
+}
+square{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
+square p{
+    text-align: center;
+}

@@ -1,0 +1,130 @@
+<!-- Hexadecimal ფორმატში ფერები -- >
+HEX ფერის ფორმატი არის #RRBBGG, სადაც RR, BB, GG წარმოადგენს წითელს, მწვანეს და ლურჯს.
+     HEX-ის მიერ ნაკადის მნიშვნელობა არის 0-დან 255-მდე და გამოიყენება სტილისტური მითითებებისთვის CSS-ში -->
+<!-- HEX ფერის კოდები გამოიყენება მარტივად, მაგალითად: #FF5733 -->
+<!-- HEX სისტემაში კომპონენტური წერტილი, რომელიც ჩამოყალიბებულია 6 სიმბოლო (0-9, A-F) 0x16 -->
+
+<!-- RGB ფორმატი არის ოთხი პარამეტრის შერჩევა: -->
+<!-- R (Red) - წითელი ფერი, G (Green) - მწვანე ფერი, B (Blue) - ლურჯი ფერი -->
+<!-- RGB სისტემაში შეირჩევა თითოეული კომპონენტის მნიშვნელობა 0-დან 255-მდე. მაგალითად: rgb(255, 0, 0) -->
+
+<!-- RGB სისტემის განსხვავება HEX-ისგან ისაა, რომ HEX ფერის კოდები გამოიყენება კომპაქტურად, ხოლო RGB უფრო კოორდინირებულად განსაზღვრავს თითოეული ფერის რაოდენობას.
+     RGB ფერების მნიშვნელობები მოცემულია სამ მნიშვნელობით (წითელი, მწვანე, ლურჯი) აქედან ყველა მნიშვნელობა 0-დან 255-მდე -->
+     <!DOCTYPE html>
+     <html lang="ka">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>My Custom Website</title>
+         <style>
+             /* Style for Color Boxes */
+             .container {
+                 display: flex;
+                 justify-content: space-around;
+                 flex-wrap: wrap;
+                 margin: 20px;
+             }
+             .box {
+                 width: 200px;
+                 height: 200px;
+                 margin: 20px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+             .img-box img {
+                 width: 100%;
+                 height: 100%;
+                 object-fit: cover;
+             }
+     
+             /* Buttons */
+             button {
+                 background-color: rgb(0, 102, 255); /* RGB Blue */
+                 color: white;
+                 border: none;
+                 padding: 15px;
+                 cursor: pointer;
+             }
+             .rgb-button {
+                 background-color: rgb(0, 255, 0); /* RGB Green */
+             }
+             .hex-button {
+                 background-color: #FF5733; /* HEX Orange */
+             }
+     
+             /* Input Fields */
+             input[type="text"] {
+                 background-color: #E1E1E1; /* HEX Grey */
+                 padding: 10px;
+                 border-radius: 5px;
+             }
+     
+             /* RGB and HEX Color Boxes */
+             .color-box {
+                 height: 100px;
+                 width: 200px;
+                 margin: 10px;
+             }
+             .red { background-color: rgb(255, 0, 0); }
+             .green { background-color: rgb(0, 255, 0); }
+             .blue { background-color: rgb(0, 0, 255); }
+             .yellow { background-color: rgb(255, 255, 0); }
+     
+             /* For HEX page colors */
+             .red-hex { background-color: #FF0000; }
+             .green-hex { background-color: #00FF00; }
+             .blue-hex { background-color: #0000FF; }
+             .yellow-hex { background-color: #FFFF00; }
+         </style>
+     </head>
+     <body>
+     
+         <!-- Section 1: Image Boxes -->
+         <div class="container">
+             <div class="box img-box">
+                 <img src="https://via.placeholder.com/200" alt="Image 1">
+             </div>
+             <div class="box img-box">
+                 <img src="https://via.placeholder.com/200" alt="Image 2">
+             </div>
+             <div class="box img-box">
+                 <img src="https://via.placeholder.com/200" alt="Image 3">
+             </div>
+         </div>
+     
+         <!-- Section 2: Buttons -->
+         <div class="container">
+             <button class="rgb-button">RGB Button 1</button>
+             <button class="hex-button">Hex Button 2</button>
+             <button class="rgb-button">RGB Button 3</button>
+         </div>
+     
+         <!-- Section 3: Inputs -->
+         <div class="container">
+             <input type="text" placeholder="Text Input 1">
+             <input type="text" placeholder="Text Input 2">
+             <input type="text" placeholder="Text Input 3">
+         </div>
+     
+         <!-- Section 4: RGB Color Shop (Page 1) -->
+         <h1>RGB Color Shop</h1>
+         <div class="container">
+             <div class="color-box red"></div>
+             <div class="color-box green"></div>
+             <div class="color-box blue"></div>
+             <div class="color-box yellow"></div>
+         </div>
+     
+         <!-- Section 5: HEX Color Shop (Page 2) -->
+         <h1>HEX Color Shop</h1>
+         <div class="container">
+             <div class="color-box red-hex"></div>
+             <div class="color-box green-hex"></div>
+             <div class="color-box blue-hex"></div>
+             <div class="color-box yellow-hex"></div>
+         </div>
+     
+     </body>
+     </html>
+     

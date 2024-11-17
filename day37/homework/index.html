@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Div Examples</title>
+    <style>
+        /* 1. პირველი მაგალითი: დივი 500px და შიგნით დივი 125px */
+        .parent {
+            width: 500px;
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        .child {
+            width: 25%;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        .child p {
+            font-size: 50%;
+        }
+
+        /* 2. მეორე მაგალითი: მშობელი დივი 700px სიმაღლით და 1000px სიგანით, შიგნით ყვითელი დივი */
+        .parent-yellow {
+            height: 700px;
+            width: 1000px;
+            background-color: darkblue;
+            padding: 20px;
+        }
+
+        .child-yellow {
+            height: 50%;
+            width: 50%;
+            background-color: yellow;
+        }
+
+        /* 3. მესამე მაგალითი: შავი ფონის დივი, შიგნით წითელი დივი */
+        .parent-black {
+            height: 700px;
+            width: 1000px;
+            background-color: black;
+            padding: 20px;
+        }
+
+        .child-red {
+            height: 25%;
+            width: 25%;
+            background-color: red;
+        }
+
+        /* 4. მეოთხე მაგალითი: დივი 1000px x 1000px და შიგნით ფოტო */
+        .parent-image {
+            width: 1000px;
+            height: 1000px;
+            background-color: lightgray;
+            padding: 20px;
+            position: relative;
+        }
+
+        .child-image {
+            width: 250px;  /* 1000px / 2 / 2 */
+            height: 250px;
+            background-image: url('https://via.placeholder.com/250');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* 5. Sololearn Dimensions */
+        .sololearn {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: lightcoral;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sololearn h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. პირველი მაგალითი -->
+    <div class="parent">
+        <div class="child">
+            <p>ეს პარაგრაფი არის 50% ზომით მშობლის დივის ზომასთან მიმართებაში.</p>
+        </div>
+    </div>
+
+    <!-- 2. მეორე მაგალითი -->
+    <div class="parent-yellow">
+        <div class="child-yellow"></div>
+    </div>
+
+    <!-- 3. მესამე მაგალითი -->
+    <div class="parent-black">
+        <div class="child-red"></div>
+    </div>
+
+    <!-- 4. მეოთხე მაგალითი -->
+    <div class="parent-image">
+        <div class="child-image"></div>
+    </div>
+
+    <!-- 5. Sololearn Dimensions -->
+    <div class="sololearn">
+        <h1>Sololearn Dimensions Example</h1>
+        <p>ეს არის მაგალითი Sololearn-ის დივის ზომების გამოყენებით.</p>
+    </div>
+
+</body>
+</html>
