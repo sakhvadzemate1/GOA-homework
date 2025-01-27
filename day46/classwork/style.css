@@ -1,0 +1,24 @@
+.p1{
+    font-size: 30px;
+    width: 300px;
+    background-color: red;
+    height: 200px;
+    text-align: center;
+    border: 20px solid black;
+    padding:20px;
+}
+
+
+/* 
+padding-top  ელემენტის ზემოთ (top) სივრცის ზომას ადგენს.
+padding-bottom  ელემენტის ქვემოთ (bottom) სივრცის ზომას ადგენს.
+padding-right ელემენტის მარჯვნივ (right) სივრცის ზომას ადგენს.
+padding-left ელემენტის მარცხნივ (left) სივრცის ზომას ადგენს.
+
+padding: top right bottom left ;  ესე უნდა იყოს პადდინგშს ტოპ და ა.შ ელემეტები
+
+
+
+*/
+
+/* margin-ი განსაზღვრავს ელემენტის გარშემო სივრცის ზომას, რომელიც გავლენას ახდენს სხვა ელემენტებთან პოზიციაზე */
