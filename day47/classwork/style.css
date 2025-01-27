@@ -1,0 +1,43 @@
+/* flexbox layout */
+
+.profile{
+    height: 150px;
+    display:flex;    /* display-გამოტანა გამოსახვა */
+    flex-direction:row;    /*flex diraction-არის მიმართულება */ 
+                              /* column არის ცვეტი და ვერტიკალურად                                       განალაგებს                    ელემენტებს და row  
+                             რომელიც ჰორიზონტალურად განალაგებს ელემენტებს */
+   justify-content: center; 
+border: 1px solid black;
+text-align: center;
+/* gap არის ელემენტებს შორის დაშორება */
+gap:10px;
+
+}
+
+
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.parent-div{
+    display: flex;
+}
+
+
+.square{
+    width:100px;
+    width: 100px;
+    background-color: red;
+    margin:5px
+}
+
+
+.paragraphs{
+    display: flex;
+    flex-direction: row row-reverse;
+    /* justify-content აკონტროლებს მთავარ ღერძს */
+}
+
+

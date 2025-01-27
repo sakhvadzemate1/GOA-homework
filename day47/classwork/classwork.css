@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+    background-color:aliceblue;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    gap:20px
+}
